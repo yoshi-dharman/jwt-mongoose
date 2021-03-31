@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(routes);
 
 app.get('/', (req, res) => {
-    res.send("<h1 style='text-align:center; padding-top:3rem'>Welcome to my Api Todo ⊂◉‿◉つ</h1>"+
+    res.send("<h1 style='text-align:center; padding-top:3rem'>Welcome to my Api ⊂◉‿◉つ</h1>"+
     "<h3 style='text-align:center;'>/user, /buku, /pinjaman</h3>")
 })
 
